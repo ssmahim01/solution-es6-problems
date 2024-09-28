@@ -11,10 +11,10 @@ const instructor = [
 const seniors = instructor.filter(person => person.position === 'Senior');
 console.log(seniors);
 
-/* Output =>  
+/* Output => [
 { name: 'Nodi', age: 28, position: 'Senior' },
 { name: 'Shobuj', age: 30, position: 'Senior' }
-*/
+] */
 
 const namesOfSenior = seniors.map(person => person.name);
 console.log(namesOfSenior); // Output => [ 'Nodi', 'Shobuj' ]
